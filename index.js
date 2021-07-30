@@ -17,7 +17,10 @@ fs.initializeApp({
 const db = fs.firestore();
 
 //get users collection
-const userhttps://about.codecov.io//data', async(req,res)=>{
+const users = db.collection('users')
+
+// create user
+app.post('/data', async(req,res)=>{
     try{
         const docRef=users.doc(req.body.user.name)
         await docRef.set({
@@ -81,7 +84,7 @@ app.post('/delete', async(req,res) => {
         res.status(200).json({
             success: true,
             message: "User deleted successfully"
-        })https://about.codecov.io/
+        })
     }
     catch(e){
         console.log(e);

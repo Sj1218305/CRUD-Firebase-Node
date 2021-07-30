@@ -1,0 +1,23 @@
+{
+  "name": "crud-firebase-node",
+  "version": "1.0.0",
+  "description": "CRUD with Firestore using the Node.js SDK",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sj1218305/CRUD-Firebase-Node.git"
+  },
+  "author": "SJ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sj1218305/CRUD-Firebase-Node/issues"
+  },
+  "homepage": "https://github.com/Sj1218305/CRUD-Firebase-Node#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "firebase-admin": "^9.11.0"
+  }
+}
